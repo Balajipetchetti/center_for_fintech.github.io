@@ -123,6 +123,8 @@
     .alldiv{
         padding-left: 30px;
         font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight:bold;
     }
     ::-webkit-scrollbar{
         display: none;
@@ -177,7 +179,7 @@
 
 <div class="imgvid">
       <div>
-        <img style="height: 50%;object-fit:cover;aspect-ratio: 2/0.95;" src="assets/images/fintech logo.png" alt="PIC">
+        <img style="height: 550px;object-fit:cover;aspect-ratio: 2/0.95;" src="assets/images/fintech logo.png" alt="PIC">
     </div>
 </div>
 
@@ -185,10 +187,7 @@
 <div class="alltabsdiv">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="instamoney-tab" data-bs-toggle="tab" data-bs-target="#instamoney-tab-pane" type="button" role="tab" aria-controls="instamoney-tab-pane" aria-selected="true" style="font-weight:bold;">INSTAMONEY</button>
-          </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="focus-tab" data-bs-toggle="tab" data-bs-target="#focus-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true" style="font-weight:bold;">FOCUS AREA</button>
+          <button class="nav-link active" id="focus-tab" data-bs-toggle="tab" data-bs-target="#focus-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true" style="font-weight:bold;">FOCUS AREA</button>
         </li>
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="outcomes-tab" data-bs-toggle="tab" data-bs-target="#outcomes-tab-pane" type="button" role="tab" aria-controls="outcomes-tab-pane" aria-selected="false" style="font-weight:bold;">OUTCOMES</button>
@@ -205,20 +204,10 @@
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="courses-tab" data-bs-toggle="tab" data-bs-target="#courses-tab-pane" type="button" role="tab" aria-controls="courses-tab-pane" aria-selected="false" style="font-weight:bold;">DOMAIN COURSES</button>
         </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="labs-tab" data-bs-toggle="tab" data-bs-target="#labs-tab-pane" type="button" role="tab" aria-controls="labs-tab-pane" aria-selected="false"style="font-weight:bold;">LABS</button>
-        </li>
       </ul>&nbsp;
+
       <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="instamoney-tab-pane" role="tabpanel" aria-labelledby="instamoney-tab" tabindex="0">
-            <div>
-                <video style="object-fit: fit;" class="hidden-xs hidden-sm hidden-md hidden-custom videosize embed-responsive-item" muted autoplay="autoplay" loop="loop">
-                    <source src="assets/images/Fintech.mp4" type="video/mp4" />
-                </video>
-              </div>
-        </div>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show" id="focus-tab-pane" role="tabpanel" aria-labelledby="focus-tab" tabindex="0">
+        <div class="tab-pane fade show active" id="focus-tab-pane" role="tabpanel" aria-labelledby="focus-tab" tabindex="0">
             <div class="focusdiv alldiv">
                 <ul>
                     <li>Developing Software Applications for Financial Institutions/Groups.</li>
@@ -363,11 +352,39 @@
                 </div><hr>
                 <div>
                     <h3><strong>ONGOING PROJECTS</strong></h3>
-                    <ul>
+                    <!-- <ul>
                         <li><a target="_blank" href="https://play.google.com/store/apps/details?id=org.gramtarang.instamoney">InstaMoney FintechApp</a></li>
                         <li>PAAS</li>
                         <li>ERP</li>
-                    </ul>
+                    </ul> -->
+                    <div>
+                      <div class="card-group" style="width: 90%;padding: 20px;">
+                          <div class="card onefall">
+                          <a target="_blank" href="https://play.google.com/store/apps/details?id=org.gramtarang.instamoney">
+                              <center><img src="assets/images/instamoney.png" class="card-img-top" alt="PIC"></center>
+                            <div class="card-body">
+                              <h5 class="card-title"><br><center><a class="allaho" target="_blank" href="https://play.google.com/store/apps/details?id=org.gramtarang.instamoney">InstaMoney FintechApp</a></center></h5>
+                            </div>
+                          </a>
+                          </div>
+                          <div class="card onefall">
+                          <a target="_blank" href="https://play.google.com/store/apps/details?id=org.gramtarang.instamoney">
+                              <center><img src="assets/images/Paas.png" class="card-img-top" alt="PIC"></center>
+                            <div class="card-body">
+                              <h5 class="card-title"><br><center><a class="allaho" target="_blank" href="https://play.google.com/store/apps/details?id=org.gramtarang.instamoney">PAAS</a></center></h5>
+                            </div>
+                          </a>
+                          </div>
+                          <div class="card onefall">
+                          <a target="_blank" href="https://play.google.com/store/apps/details?id=org.gramtarang.instamoney">
+                              <center><img src="assets/images/erp.jpg" class="card-img-top" alt="PIC"></center>
+                            <div class="card-body">
+                              <h5 class="card-title"><br><center><a class="allaho" target="_blank" href="https://play.google.com/store/apps/details?id=org.gramtarang.instamoney">ERP</a></center></h5>
+                            </div>
+                          </a>
+                          </div>
+                        </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -397,38 +414,31 @@
                 <div>
                     <div class="card-group" style="width: 90%;padding: 20px;">
                         <div class="card onefall">
-                        <a target="_blank" href="#">
-                            <center><img src="assets/images/profile_avatar.png" class="card-img-top" alt="PIC"></center>
+                        <a target="_blank" href="https://courseware.cutm.ac.in/courses/software_technology/">
+                            <center><img src="https://img.freepik.com/premium-vector/mobile-app-development-background_73903-295.jpg?w=2000" class="card-img-top" alt="PIC"></center>
                           <div class="card-body">
-                            <h5 class="card-title"><br><center><a class="allaho" target="_blank" href="#">Software Technologies</a></center></h5>
+                            <h5 class="card-title"><br><center><a class="allaho" target="_blank" href="https://courseware.cutm.ac.in/courses/software_technology/">Software Technologies</a></center></h5>
                           </div>
                         </a>
                         </div>
                         <div class="card onefall">
-                        <a target="_blank" href="#">
-                            <center><img src="assets/images/profile_avatar.png" class="card-img-top" alt="PIC"></center>
+                        <a target="_blank" href="https://courseware.cutm.ac.in/courses/domain-track-cyber-security/">
+                            <center><img src="assets/images/CyberImage.png" class="card-img-top" alt="PIC"></center>
                           <div class="card-body">
-                            <h5 class="card-title"><br><center><a class="allaho" target="_blank" href="#">Cyber Security</a></center></h5>
+                            <h5 class="card-title"><br><center><a class="allaho" target="_blank" href="https://courseware.cutm.ac.in/courses/domain-track-cyber-security/">Cyber Security</a></center></h5>
                           </div>
                         </a>
                         </div>
                         <div class="card onefall">
-                        <a target="_blank" href="#">
-                            <center><img src="assets/images/profile_avatar.png" class="card-img-top" alt="PIC"></center>
+                        <a target="_blank" href="https://courseware.cutm.ac.in/courses/domain-cloud-domain/">
+                            <center><img src="assets/images/Cloud-Computing.jpg" class="card-img-top" alt="PIC"></center>
                           <div class="card-body">
-                            <h5 class="card-title"><br><center><a class="allaho" target="_blank" href="#">Cloud Domain</a></center></h5>
+                            <h5 class="card-title"><br><center><a class="allaho" target="_blank" href="https://courseware.cutm.ac.in/courses/domain-cloud-domain/">Cloud Domain</a></center></h5>
                           </div>
                         </a>
                         </div>
                       </div>
                 </div>
-            </div>
-        </div>
-        <div class="tab-pane fade" id="labs-tab-pane" role="tabpanel" aria-labelledby="labs-tab" tabindex="0">
-            <div class="labs alldiv">
-                <ul>
-                    <li>Private Blockchain (under Development)</li>
-                </ul>
             </div>
         </div>
         
